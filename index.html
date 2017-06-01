@@ -4,6 +4,180 @@
 <h1>Hey guys</h1>
 <p>This is Jack Goldsmith's website.</p>
 <p>Jack is a computer science major in Boston University's class of 2020</p>
+<div id="container">
+
+<a id="button-t" href="#">
+tweet</a>
+
+<a id="button-f" href="#">
+share</a>
+
+</div>
 <img src="https://puu.sh/w7dmi/144f6bafa2.png" style="width:946px;height:1132px;">
+<style>
+#container {position:fixed; top:20%; left:45%;}
+
+/*-- Twitter Button Start --*/
+#button-t {
+width:80px;
+height:20px;
+display:block;
+font-family:Arial, "Helvetica", sans-serif;
+font-size:14px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+text-align:center;
+text-shadow:1px 1px 0px #2389AF;
+padding:8px 20px 4px 10px;
+margin-left:auto;
+margin-right:auto;
+left:20px;
+position:relative;
+cursor:pointer;
+border-left:solid 1px #2ab7ec;
+-webkit-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+background:#50C4F0;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+-webkit-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
+-moz-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
+-o-box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
+box-shadow: inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #2593BD;
+}
+
+#button-t:active {
+top:3px;
+-webkit-box-shadow: inset 0px 1px 0px #50C4F0, 0px 2px 0px 0px #2593BD;
+-moz-box-shadow: inset 0px 1px 0px #50C4F0, 0px 2px 0px 0px #2593BD;
+-o-box-shadow: inset 0px 1px 0px #50C4F0, 0px 2px 0px 0px #2593BD;
+box-shadow: inset 0px 1px 0px #50C4F0, 0px 2px 0px 0px #2593BD;
+}
+
+#button-t:before {
+content:url(http://www.mshaefer.com/wp-content/themes/zwin/images/social_twitter.png);
+width:18px;
+height:22px;
+display:block;
+position:absolute;
+padding:5px;
+top:0px;
+margin-left:-37px;
+font-size:16px;
+font-weight:bold;
+color:#8fd1ea;
+text-shadow:1px 1px 0px #07526e;
+border-right:solid 1px #2EA4CF;
+background:#22A8DA;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+-webkit-box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
+-moz-box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
+-o-box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
+box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797;
+}
+
+#button-t:active:before {
+top:-3px;
+-webkit-box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797, 1px 1px 0px 0px #2593BD, 2px 2px 0px 0px #2593BD, 2px 5px 0px 0px #2593BD, 6px 4px 2px #0b698b;
+-moz-box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797, 1px 1px 0px 0px #2593BD, 2px 2px 0px 0px #2593BD, 2px 5px 0px 0px #2593BD, 6px 4px 2px #0b698b;
+-o-box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797, 1px 1px 0px 0px #2593BD, 2px 2px 0px 0px #2593BD, 2px 5px 0px 0px #2593BD, 6px 4px 2px #0b698b;
+box-shadow:inset 0px 1px 0px #50C4F0, 0px 5px 0px 0px #1F7797, 1px 1px 0px 0px #2593BD, 2px 2px 0px 0px #2593BD, 2px 5px 0px 0px #2593BD, 4px 4px 6px #2593BD;
+}
+
+
+/*-- Facebook Button Start --*/
+#button-f {
+width:80px;
+height:20px;
+display:block;
+font-family:Arial, "Helvetica", sans-serif;
+font-size:14px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+text-align:center;
+text-shadow:1px 1px 0px #264075;
+padding:8px 20px 4px 10px;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+left:20px;
+position:relative;
+cursor:pointer;
+border-left:solid 1px #264075;
+-webkit-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+background:#3b5a9b ;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+-webkit-box-shadow: inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #264075;
+-moz-box-shadow: inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #264075;
+-o-box-shadow: inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #264075;
+box-shadow: inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #264075;
+}
+
+#button-f:active {
+top:3px;
+-webkit-box-shadow: inset 0px 1px 0px #3b5a9b , 0px 2px 0px 0px #264075;
+-moz-box-shadow: inset 0px 1px 0px #3b5a9b , 0px 2px 0px 0px #264075;
+-o-box-shadow: inset 0px 1px 0px #3b5a9b , 0px 2px 0px 0px #264075;
+box-shadow: inset 0px 1px 0px #3b5a9b , 0px 2px 0px 0px #264075;
+}
+
+#button-f:before {
+content:url(http://www.mshaefer.com/wp-content/themes/zwin/images/social_facebook.png);
+width:18px;
+height:22px;
+display:block;
+position:absolute;
+padding:5px;
+top:0px;
+margin-left:-37px;
+font-size:16px;
+font-weight:bold;
+color:#8fd1ea;
+text-shadow:1px 1px 0px #264075;
+border-right:solid 1px #264075;
+background:#27437e;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+-webkit-box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #152a55;
+-moz-box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #152a55;
+-o-box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #152a55;
+box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #152a55;
+}
+
+#button-f:active:before {
+top:-3px;
+-webkit-box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #152A55, 1px 1px 0px 0px #264075, 2px 2px 0px 0px #264075, 2px 5px 0px 0px #152A55, 6px 4px 2px #0b698b;
+-moz-box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #152A55, 1px 1px 0px 0px #264075, 2px 2px 0px 0px #264075, 2px 5px 0px 0px #152A55, 6px 4px 2px #0b698b;
+-o-box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #264075, 2px 2px 0px 0px #264075, 2px 5px 0px 0px #152A55, 6px 4px 2px #0b698b;
+box-shadow:inset 0px 1px 0px #3b5a9b , 0px 5px 0px 0px #152A55, 1px 1px 0px 0px #264075, 2px 2px 0px 0px #264075, 2px 5px 0px 0px #264075, 4px 4px 6px #264075;
+}
+</style>
 </body>
 </html>
