@@ -2,13 +2,6 @@
 <html>
 <head>
   <title>Jack's website</title>
-    <!-- You can use Open Graph tags to customize link previews.
-    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-  <meta property="og:url"           content="http://www.jackgoldsmith.me" />
-  <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="Jack's website" />
-  <meta property="og:description"   content="Your description" />
-  <!--<meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />-->
 </head>
 
 <body>
@@ -16,22 +9,17 @@
 <p>This is Jack Goldsmith's website.</p>
 <p>Jack is a computer science major in Boston University's class of 2020</p>
 
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-  <!-- Your share button code -->
-  <div class="fb-share-button"
-    data-href="http://www.jackgoldsmith.me"
-    data-layout="button_count">
-  </div>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div>
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fjackgoldsmith.me&layout=button_count&size=large&mobile_iframe=true&width=83&height=28&appId" width="83" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</div>
 </body>
 
 <img src="https://puu.sh/w7dmi/144f6bafa2.png" style="width:946px;height:1132px;">
