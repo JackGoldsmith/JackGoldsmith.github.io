@@ -10,9 +10,10 @@
 <p>Jack is a computer science major in Boston University's class of 2020.</p>
 <p><a href="shenanigans.html">Click here to see my shenanigans</a><font size="1"> (which I didn't actually create)</font></p>
 <div id="fb-root"></div>
-<div id="fb-root"></div>
 
-  <script>(function(d, s, id) {
+  <script>
+  js.src = "//connect.facebook.net/en_US/sdk.js";
+  (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
@@ -27,11 +28,25 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=290675587615396";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
+
+
+/* attempted to make comments
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=290675587615396";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  */
   </script>
 <div>
 <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fjack.s.goldsmith&width=120&height=21&layout=button_count&size=large&show_faces=true&appId=290675587615396" width="120" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fjackgoldsmith.me&layout=button_count&size=large&mobile_iframe=true&width=83&height=28&appId" width="83" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
+<!-- attempted to make comments
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="800" data-numposts="5"></div>
+-->
 </body>
 
 <img src="https://puu.sh/w7dmi/144f6bafa2.png" style="width:946px;height:1132px;">
