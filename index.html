@@ -1,54 +1,49 @@
 <!DOCTYPE html>
 <html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<link rel="stylesheet" href="css/style.css">
 <head>
   <title>Jack's website</title>
 </head>
-
-<body style="font-family: Palatino; font-size: x-large;">
-<h1>Hey guys</h1>
-<p>This is <a href="https://www.facebook.com/jack.s.goldsmith">Jack Goldsmith</a>'s website.</p>
-<p>Jack is a computer science major in Boston University's class of 2020.</p>
-<p><a href="shenanigans.html">Click here to see my shenanigans</a><font size="1"> (which I didn't actually create)</font></p>
-<div id="fb-root"></div>
-
-  <script>
-  js.src = "//connect.facebook.net/en_US/sdk.js";
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=290675587615396";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
+<header>
+  <div class="content">
+    <a href="https://www.facebook.com/jack.s.goldsmith" target="_blank">
+      <hgroup>
+        <h1>Jack Goldsmith</h1>
+        <i>A Computer Science Sophomore</i>
+      </hgroup>
+    </a>
+  </div>
+  <div class="overlay"></div>
+</header>
+<section class="site">
+  <nav>
+    <a href="shenanigans.html">Dumb Stuff</a>
+    <a href="">Page</a>
+    <a href="">Page</a>
+    <a href="">Page</a>
+    <a href="">Page</a>
+  </nav>
+  <script src="js/changing.js"></script>
+</section>
 
 
-/* attempted to make comments
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=290675587615396";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-  */
-  </script>
-<div>
-<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fjack.s.goldsmith&width=120&height=21&layout=button_count&size=large&show_faces=true&appId=290675587615396" width="120" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fjackgoldsmith.me&layout=button_count&size=large&mobile_iframe=true&width=83&height=28&appId" width="83" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-</div>
+
 <!-- attempted to make comments
 <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="800" data-numposts="5"></div>
 -->
+<body>
+  <p>sorry this is ugly I'll fix it.</p>
 </body>
+<footer>
+  <div id="fb-root"></div>
+  <div>
+    <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fjack.s.goldsmith&width=120&height=21&layout=button_count&size=large&show_faces=true&appId=290675587615396" width="120" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fjackgoldsmith.me&layout=button_count&size=large&mobile_iframe=true&width=83&height=28&appId" width="83" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  </div>
+  <img src="https://puu.sh/w7dmi/144f6bafa2.png" style="width:946px;height:1132px;">
+</footer>
 
-<img src="https://puu.sh/w7dmi/144f6bafa2.png" style="width:946px;height:1132px;">
-</body>
+
 </html>
