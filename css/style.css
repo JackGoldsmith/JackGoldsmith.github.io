@@ -91,14 +91,15 @@ header .overlay {
   opacity: 0;  -webkit-filter: blur(4px);
 }
 img{
-  margin-right:20px;
+  margin-right:20px
 }
 .site {
+  padding: 20em 0;
   text-align: center;
   background-color: #efefef;
   font-size: .8em;
   color: #444;
-  position:relative;
+  position:relative
 }
 .site a {
   color: #666;
@@ -113,14 +114,14 @@ img{
   top:0;
   left:0;
   background:#222;
-  width:100%;
+  width:100%
 }
 .site nav a{
   padding:10px 30px;
   font-size:1.3em;
-  display:inline-block;
+  display:inline-block
 }
 .site nav a:hover{
   background:#333;
-  color:#fff;
+  color:#fff
 }
